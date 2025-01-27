@@ -480,3 +480,8 @@ umbraco-package-schema.json
 
 # Media files
 **/wwwroot/media/
+**/App_Plugins/Client/
+
+# Adding DB
+!**/umbraco/Data/UmbracoDemoUmb15.mdf
+!**/umbraco/Data/UmbracoDemoUmb15_log.ldf
