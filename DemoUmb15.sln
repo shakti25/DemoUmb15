@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1DBE3D12-30D9-42FE-A1AA-5A354C8005BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoUmb15.Web", "src\DemoUmb15.Web\DemoUmb15.Web.csproj", "{D7856031-F0BD-45BB-83C3-D4566A92CA23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7856031-F0BD-45BB-83C3-D4566A92CA23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7856031-F0BD-45BB-83C3-D4566A92CA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7856031-F0BD-45BB-83C3-D4566A92CA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7856031-F0BD-45BB-83C3-D4566A92CA23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7856031-F0BD-45BB-83C3-D4566A92CA23} = {1DBE3D12-30D9-42FE-A1AA-5A354C8005BB}
+	EndGlobalSection
+EndGlobal
