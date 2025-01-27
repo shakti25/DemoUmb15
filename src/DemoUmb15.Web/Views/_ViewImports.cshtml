@@ -3,6 +3,8 @@
 @using Umbraco.Cms.Web.Common.Views
 @using Umbraco.Cms.Core.Models.PublishedContent
 @using Microsoft.AspNetCore.Html
+@using contentModels = DemoUmb15.Web.ContentModels
+
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
-@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<TModel>
